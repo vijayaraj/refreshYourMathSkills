@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   before_filter :check_email, :user_exists?, :only => [:create, :reset_passcode]
   before_filter :check_passcode, :user_by_passcode, 
       :except => [:new, :create, :reset_passcode, :instructions, :routing_error]
-  before_filter :check_max_score, :only => [:create, :kickoff, :answer]
+  before_filter :check_max_score, :only => [:kickoff, :answer]
   before_filter :previous_question, :only => :answer
 
   def new
