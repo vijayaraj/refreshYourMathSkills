@@ -21,3 +21,23 @@
 
 en:
   hello: "Hello world"
+  welcome_msg: "Welcome! Solve simple math questions from your terminal using cURL. Pwede na? (Expect a little Minionese throughout :D).\ncURL /play with your name and email.\n"
+  enroll_msg: "Bello %{name}! Use %{passcode} with your cURL requests, we'll identify you with this passcode. cURL /howtoplay to get the URLs.\n"
+  enroll_score_msg: "Kan pai! You had scored %{score} points before. /kickoff to start the game. \n"
+  score_msg: "Kan pai! You have scored %{score} points so far. /kickoff to resume.\n"
+  
+  instructions: "How to play - URLs \n1) /kickoff with your passcode to start. \n2) /answer with your passcode and the answer to answer the previous question. \n3) /leave with passcode to quit. \n4) /score with your passcode to get your score anytime. \n5) /howtoplay to get these URLs again.\n"
+
+  enroll_failure: "Stoppa! Stoppa! :/ Something's wrong. You need to pass your name and email with the /play command.\n"
+  user_not_found: "Bi-do! Unable to locate you. :( \nPlease check your passcode or use /passcode with your email to reset and get a new one.\n"
+  no_passcode_msg: "We need your passcode macha.\n" 
+  no_email_msg: "We need your email. This will help us identify when you play this next time. Also, we'll remember your score! Bank yu!\n" 
+  no_prev_question: "We did not ask you a question before.\n" 
+  
+  question: "What's the value of %{question}? cURL /answer to answer.\n"
+  right_ans: "+10 points. What's the value of %{question}?\n"
+  wrong_ans: "Bi-do! :( -10 points. Solve this %{question}.\n"
+  no_url: "Stoppa! Stoppa! :/ Something's wrong with this request. Does this URL exist?. GET or POST? Or did you miss your passcode?\n"
+
+  max_score_reached: "You have reached your maximum score! Tatata bala tu! :(\n"
+  bye: "Poopaye!. See you soon!\n"
