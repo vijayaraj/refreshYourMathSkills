@@ -22,7 +22,7 @@
 en:
   hello: "Hello world"
   welcome_msg: "Welcome! Solve simple math questions from your terminal using cURL. Pwede na? (Expect a little Minionese throughout :D).\ncURL /play with your name and email.\n"
-  enroll_msg: "Bello %{name}! Use %{passcode} with your cURL requests, we'll identify you with this passcode. cURL /howtoplay to get the URLs.\n"
+  enroll_msg: "Bello %{name}! Use %{passcode} with your cURL requests, we'll identify you with this passcode. cURL /howtoplay to get the URLs. Questions get little harder as you play.\n"
   enroll_score_msg: "Kan pai! You had scored %{score} points before. /kickoff to start the game. \n"
   score_msg: "Kan pai! You have scored %{score} points so far. /kickoff to resume.\n"
   
