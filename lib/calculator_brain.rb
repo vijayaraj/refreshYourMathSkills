@@ -6,8 +6,8 @@ module CalculatorBrain
     #level => [no. of operators, highest OPERATORS index, max_num]
     1 => [2, 2, 9],
     2 => [2, 1, 99],
-    2 => [3, 2, 99],
-    4 => [3, 3, 9],
+    3 => [3, 3, 9],
+    4 => [3, 2, 99],
     5 => [3, 3, 99],
   }
 
